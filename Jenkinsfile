@@ -17,6 +17,7 @@
  			
 			steps{
 				sh '''
+				cd jenkins-ansible-int-static/
                     su ron 
                     ansible-playbook main.yml
                 '''
