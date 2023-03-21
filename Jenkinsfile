@@ -4,9 +4,9 @@
  		
 		stage("git-clone-repo"){
  			steps{
-				sh "sudo git clone -b mumbai https://github.com/rohaanuv/jenkins-docker-int.git mumbai" 				
- 				sh "sudo git clone -b pune https://github.com/rohaanuv/jenkins-docker-int.git pune" 
-                sh "sudo git clone -b nagpur https://github.com/rohaanuv/jenkins-docker-int.git nagpur"
+				sh "sudo git clone -b mumbai https://github.com/rohaanuv/jenkins-ansible-int-static.git mumbai" 				
+ 				sh "sudo git clone -b pune https://github.com/rohaanuv/jenkins-ansible-int-static.git pune" 
+                sh "sudo git clone -b nagpur https://github.com/rohaanuv/jenkins-ansible-int-static.git nagpur"
                 
  			}
  		}
