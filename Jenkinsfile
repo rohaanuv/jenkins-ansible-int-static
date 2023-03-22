@@ -1,5 +1,11 @@
  pipeline  {
- 	agent any
+	 agent {
+	 label {
+	 	label: "built-in"
+		 customWorkspace "/mnt/"
+	 }
+	 }
+	 
  	stages {
  		
 		stage("git-clone-repo"){
